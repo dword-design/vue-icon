@@ -1016,7 +1016,24 @@
     depcheck-parser-vue "^1.0.0"
     execa "^4.0.3"
 
-"@dword-design/base-config-node@^1.6.0", "@dword-design/base-config-node@^1.8.8":
+"@dword-design/base-config-node@^1.6.0":
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/@dword-design/base-config-node/-/base-config-node-1.8.9.tgz#44153857215bd310afd25965652ecc85a6fd6338"
+  integrity sha512-WvdkDmbQOgmc3cD0bt/y4Q+r+JRnWHoyIZawTTf8l98Y6rkby2uos9E4E7vjgnZw/omzBJ2UuLoKo5TCFBOpCQ==
+  dependencies:
+    "@babel/cli" "^7.7.5"
+    "@babel/core" "^7.7.5"
+    "@dword-design/babel-config" "^1.0.4"
+    "@dword-design/eslint-config" "^1.9.0"
+    "@dword-design/functions" "^2.2.2"
+    chokidar "^3.4.0"
+    debounce "^1.2.0"
+    eslint "~7.4.0"
+    execa "^4.0.0"
+    fs-extra "^9.0.0"
+    get-package-name "^1.0.0"
+
+"@dword-design/base-config-node@^1.8.8":
   version "1.8.8"
   resolved "https://registry.yarnpkg.com/@dword-design/base-config-node/-/base-config-node-1.8.8.tgz#04bc25492f69b06b4391f85a14049e5a748715f1"
   integrity sha512-D4k2XqB2B+OmFiSsld1frXy5b+5bkIDQdeq5H8UVJisjwIKDaMEYEE+26hQeDztFPcaraOpzp83p3UQ7luaBPA==
@@ -1034,9 +1051,9 @@
     get-package-name "^1.0.0"
 
 "@dword-design/base@^6.24.1":
-  version "6.24.1"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-6.24.1.tgz#e9f253ea95031501aea64fb07db46a303231f047"
-  integrity sha512-Cd/LJgVGZ7LOYncTYqQ7Hvu8tIFYX2RzEjHq+7gyYgvcIgUJW6k69Bc9E7qKXNxDIngS8yt364cFCKEniUzd8A==
+  version "6.24.2"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-6.24.2.tgz#4096fddaf711c70ad0104af6ab2c4e89436b4be0"
+  integrity sha512-17tvPReVKcWJ14i2fot3y6UWWgvbfEca10nlI9R2NV0jNk0nPz5Lea/kPargUAMrlQe2M3SZuGK/KQnrXgbB6w==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -1087,13 +1104,16 @@
     yaml "^1.8.2"
 
 "@dword-design/ci@^1.0.1":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@dword-design/ci/-/ci-1.0.7.tgz#c2442ef68b7992b458d2d483d41a20ad7a0cd9b0"
-  integrity sha512-ti5PCrxcbx7teSQjaNkU2qszXx2doX65ww0QvEYBOQ+5UmDyAilxnlp89oVFNxznoqZ2XY5iCarfCntJv8TiOg==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/ci/-/ci-1.1.0.tgz#7272c784afb7cbf9b322f001625abc43fa44e0ed"
+  integrity sha512-v/XfbH03fKv0v5nRBw4fnTya3gyofBEYjHTH4YIL0IJFNDUYw6lt7oXMOTI9g+PGGes41h6Ivx8Byt9NtELmTA==
   dependencies:
     "@dword-design/functions" "^2.7.2"
+    coveralls "^3.1.0"
     execa "^4.0.0"
+    get-package-name "^1.1.0"
     make-cli "^1.0.16"
+    safe-readfile "^1.0.2"
 
 "@dword-design/depcheck-parser-sass@^1.1.1":
   version "1.1.1"
@@ -2935,6 +2955,17 @@ cosmiconfig@6.0.0, cosmiconfig@^6.0.0:
     path-type "^4.0.0"
     yaml "^1.7.2"
 
+coveralls@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/coveralls/-/coveralls-3.1.0.tgz#13c754d5e7a2dd8b44fe5269e21ca394fb4d615b"
+  integrity sha512-sHxOu2ELzW8/NC1UP5XVLbZDzO4S3VxfFye3XYCznopHy02YjNkHcj5bKaVw2O7hVaBdBjEdQGpie4II1mWhuQ==
+  dependencies:
+    js-yaml "^3.13.1"
+    lcov-parse "^1.0.0"
+    log-driver "^1.2.7"
+    minimist "^1.2.5"
+    request "^2.88.2"
+
 create-error-class@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/create-error-class/-/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
@@ -3113,7 +3144,12 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
-dedent@0.7.0, dedent@dword-design/dedent#fork:
+dedent@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
+dedent@dword-design/dedent#fork:
   version "0.7.0"
   resolved "https://codeload.github.com/dword-design/dedent/tar.gz/c8d46e5017d60504657c2d01b59082c0329a12a7"
   dependencies:
@@ -5816,6 +5852,11 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+lcov-parse@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/lcov-parse/-/lcov-parse-1.0.0.tgz#eb0d46b54111ebc561acb4c408ef9363bdc8f7e0"
+  integrity sha1-6w1GtUER68VhrLTECO+TY73I9+A=
+
 leven@3.1.0, leven@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/leven/-/leven-3.1.0.tgz#77891de834064cccba82ae7842bb6b14a13ed7f2"
@@ -6219,6 +6260,11 @@ lodash@^4.0.0, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.1
   version "4.17.19"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
   integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+
+log-driver@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/log-driver/-/log-driver-1.2.7.tgz#63b95021f0702fedfa2c9bb0a24e7797d71871d8"
+  integrity sha512-U7KCmLdqsGHBLeWqYlFA0V0Sl6P08EE1ZrmA9cxjUE0WVqT9qnyVDPz1kzpFEP0jdJuFnasWIfSd7fsaNXkpbg==
 
 log-symbols@3.0.0:
   version "3.0.0"
@@ -8549,7 +8595,7 @@ replace-ext@1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-request@^2.87.0, request@^2.88.0:
+request@^2.87.0, request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
