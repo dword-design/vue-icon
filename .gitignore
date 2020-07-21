@@ -1,4 +1,5 @@
 .DS_Store
+.browserslistrc
 /.babelrc.json
 /.commitlintrc.json
 /.cz.json
