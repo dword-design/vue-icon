@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/dword-design/vue-icon/compare/v1.0.1...v1.0.2) (2020-07-25)
+
+
+### Bug Fixes
+
+* remove unneeded dep ([4b60f63](https://github.com/dword-design/vue-icon/commit/4b60f638194ac0b3ce4dfa103b841242f62ac329))
+* upgrades ([9f3a0dd](https://github.com/dword-design/vue-icon/commit/9f3a0dd9c8965cd0ca83fa441159f9f9ca55e926))
+
 ## [1.0.1](https://github.com/dword-design/vue-icon/compare/v1.0.0...v1.0.1) (2020-07-21)
 
 
