@@ -20,6 +20,9 @@
     "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0"
+  },
   "devDependencies": {
     "@dword-design/base": "^6.24.1",
     "@dword-design/base-config-component": "^1.1.0"
