@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/vue-icon/compare/v1.0.2...v1.0.3) (2020-08-23)
+
+
+### Bug Fixes
+
+* upgrades ([94d6b28](https://github.com/dword-design/vue-icon/commit/94d6b28e2eb4ab28df0c27ff4f2c23f5c734210a))
+
 ## [1.0.2](https://github.com/dword-design/vue-icon/compare/v1.0.1...v1.0.2) (2020-07-25)
 
 
