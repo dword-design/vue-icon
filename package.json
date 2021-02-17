@@ -13,7 +13,7 @@
     "dist"
   ],
   "scripts": {
-    "clean": "base clean",
+    "check-unknown-files": "base check-unknown-files",
     "commit": "base commit",
     "lint": "base lint",
     "prepare": "base prepare",
@@ -22,7 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@dword-design/base": "^6.24.1",
+    "@dword-design/base": "^7.0.0",
     "@dword-design/base-config-component": "^1.1.0"
   },
   "publishConfig": {
