@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "",
   "repository": "dword-design/vue-icon",
+  "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.ssr.js",
@@ -13,7 +14,7 @@
     "dist"
   ],
   "scripts": {
-    "check-unknown-files": "base check-unknown-files",
+    "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "lint": "base lint",
     "prepare": "base prepare",
