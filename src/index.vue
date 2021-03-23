@@ -7,7 +7,7 @@ export default {
     keepColors: { type: Boolean },
     size: { default: 'm' },
   },
-  render: context => (
+  render: (h, context) =>
     <context.props.icon
       {...context.data}
       aria-hidden="true"
@@ -20,8 +20,7 @@ export default {
         },
       ]}
       focusable="false"
-    />
-  ),
+    />,
 }
 </script>
 
