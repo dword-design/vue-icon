@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/vue-icon/compare/v1.0.6...v1.0.7) (2021-03-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#8](https://github.com/dword-design/vue-icon/issues/8)) ([d1910ac](https://github.com/dword-design/vue-icon/commit/d1910ac9f64e0fca91b8cad95dd1925354ecfe4d))
+
 ## [1.0.6](https://github.com/dword-design/vue-icon/compare/v1.0.5...v1.0.6) (2021-02-17)
 
 
