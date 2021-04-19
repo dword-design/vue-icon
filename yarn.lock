@@ -1279,10 +1279,10 @@
     rollup-plugin-terser "^7.0.0"
     rollup-plugin-vue "github:dword-design/rollup-plugin-vue#fork"
 
-"@dword-design/tester-plugin-component@^1.1.3":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-component/-/tester-plugin-component-1.1.7.tgz#d410f2924cbfce8010b2f46b9b54f8dc49a19659"
-  integrity sha512-tCNXD3o5hkYd+flAUsCRILHOBMSrNb/UY3BjB3+tJbTHbRuhuFSJH7e5qJY6iU6lI3WG/IhOgLGZV7Ju51r0fg==
+"@dword-design/tester-plugin-component@^1.1.7":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-component/-/tester-plugin-component-1.1.9.tgz#7f0fa13017026a0a3c0b3c4fbf09b6578faf83d6"
+  integrity sha512-PxtYi0qeOJ7Y4mvzxAHy5f35brww087VM2Q3TtQn+oRq9W+zJcV/Lbett19ga/NmO2E+c07AyNN/5ScSnPClIQ==
   dependencies:
     "@dword-design/functions" "^3.0.0"
     depcheck-package-name "^1.0.2"
