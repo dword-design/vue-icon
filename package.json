@@ -1,7 +1,7 @@
 {
   "name": "@dword-design/vue-icon",
   "version": "1.0.9",
-  "description": "",
+  "description": null,
   "repository": "dword-design/vue-icon",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
@@ -49,5 +49,7 @@
         "sass-loader"
       ]
     }
-  }
+  },
+  "homepage": null,
+  "keywords": []
 }
