@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/dword-design/vue-icon/compare/v1.0.9...v1.0.10) (2021-04-21)
+
+
+### Bug Fixes
+
+* update config files ([be6c882](https://github.com/dword-design/vue-icon/commit/be6c88246180d6e6c24f2e45281d90b078c2ce10))
+* updated package.json[description] ([#22](https://github.com/dword-design/vue-icon/issues/22)) ([9e91395](https://github.com/dword-design/vue-icon/commit/9e91395c5243155decd4d1f6a4539a0e4591e809))
+
 ## [1.0.9](https://github.com/dword-design/vue-icon/compare/v1.0.8...v1.0.9) (2021-04-12)
 
 
