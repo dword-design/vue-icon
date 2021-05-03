@@ -36,6 +36,9 @@
     "sass": "^1.32.8",
     "sass-loader": "^10.0.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   },
