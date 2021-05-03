@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/vue-icon/compare/v2.0.2...v2.0.3) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v5 ([#30](https://github.com/dword-design/vue-icon/issues/30)) ([bc55a61](https://github.com/dword-design/vue-icon/commit/bc55a61ad4ccd0b77367b98361c6f642a75dd983))
+
 ## [2.0.2](https://github.com/dword-design/vue-icon/compare/v2.0.1...v2.0.2) (2021-05-03)
 
 
