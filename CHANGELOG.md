@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/dword-design/vue-icon/compare/v2.0.1...v2.0.2) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2 ([#31](https://github.com/dword-design/vue-icon/issues/31)) ([60ec9de](https://github.com/dword-design/vue-icon/commit/60ec9dec46fa749d82f5c40875507c5cc5cc03d8))
+* update dependency depcheck-package-name to v2 ([#32](https://github.com/dword-design/vue-icon/issues/32)) ([b08424d](https://github.com/dword-design/vue-icon/commit/b08424d84510d1f4cc29271c020a75c7cf3ee7f1))
+
 ## [2.0.1](https://github.com/dword-design/vue-icon/compare/v2.0.0...v2.0.1) (2021-05-03)
 
 
