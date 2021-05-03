@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/vue-icon/compare/v1.0.13...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#28](https://github.com/dword-design/vue-icon/issues/28)) ([79b33a8](https://github.com/dword-design/vue-icon/commit/79b33a80f1c82b8b92435dc33e1e76e1ac929222))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.13](https://github.com/dword-design/vue-icon/compare/v1.0.12...v1.0.13) (2021-04-28)
 
 
