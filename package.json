@@ -31,7 +31,7 @@
     "@dword-design/tester-plugin-component": "^1.1.3",
     "@dword-design/tester-plugin-puppeteer": "^2.0.0",
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "depcheck-package-name": "^1.0.4",
+    "depcheck-package-name": "^2.0.0",
     "nuxt-svg-loader": "^1.2.0",
     "sass": "^1.32.8",
     "sass-loader": "^10.0.0"
