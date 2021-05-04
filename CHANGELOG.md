@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/dword-design/vue-icon/compare/v2.0.3...v2.0.4) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-component to v2 ([#33](https://github.com/dword-design/vue-icon/issues/33)) ([e0e5331](https://github.com/dword-design/vue-icon/commit/e0e5331a9a0a0da4aa2e0e8e99774d940b60569e))
+
 ## [2.0.3](https://github.com/dword-design/vue-icon/compare/v2.0.2...v2.0.3) (2021-05-03)
 
 
