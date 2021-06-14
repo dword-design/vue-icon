@@ -54,14 +54,52 @@
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-## Install
-
+## Install Via a Package Manager
 ```bash
 # npm
-$ npm install @dword-design/vue-icon
+$ npm install vue-icon
 
 # Yarn
-$ yarn add @dword-design/vue-icon
+$ yarn add vue-icon
+```
+
+Add to local components:
+
+```js
+<script>
+import VueIcon from 'vue-icon'
+
+export default {
+  components: {
+    VueIcon,
+  },
+}
+</script>
+```
+
+Or register as global component:
+
+```js
+import Vue from 'vue'
+import VueIcon from 'vue-icon'
+
+Vue.component('VueIcon', VueIcon)
+```
+
+Or register as plugin:
+
+```js
+import Vue from 'vue'
+import VueIcon from 'vue-icon'
+
+Vue.use(VueIcon)
+```
+
+## Install Via CDN
+
+```html
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-icon"></script>
 ```
 <!-- /INSTALL -->
 
