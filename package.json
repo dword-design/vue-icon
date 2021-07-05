@@ -2,7 +2,7 @@
   "name": "@dword-design/vue-icon",
   "version": "2.0.6",
   "repository": "dword-design/vue-icon",
-  "funding": "https://www.buymeacoffee.com/dword",
+  "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.ssr.js",
