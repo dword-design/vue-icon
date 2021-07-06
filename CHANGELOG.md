@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/dword-design/vue-icon/compare/v2.0.6...v2.0.7) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([abc4689](https://github.com/dword-design/vue-icon/commit/abc4689ead0ad8701f71fcc04fade86e3a30341d))
+
 ## [2.0.6](https://github.com/dword-design/vue-icon/compare/v2.0.5...v2.0.6) (2021-06-14)
 
 
