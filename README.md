@@ -54,7 +54,8 @@
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-## Install Via a Package Manager
+## Install via a package manager
+
 ```bash
 # npm
 $ npm install vue-icon
@@ -77,7 +78,7 @@ export default {
 </script>
 ```
 
-Or register as global component:
+Or register as a global component:
 
 ```js
 import Vue from 'vue'
@@ -86,7 +87,7 @@ import VueIcon from 'vue-icon'
 Vue.component('VueIcon', VueIcon)
 ```
 
-Or register as plugin:
+Or register as a plugin:
 
 ```js
 import Vue from 'vue'
