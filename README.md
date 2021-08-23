@@ -96,7 +96,7 @@ import VueIcon from 'vue-icon'
 Vue.use(VueIcon)
 ```
 
-## Install Via CDN
+## Install via CDN
 
 ```html
 <script src="https://unpkg.com/vue"></script>
