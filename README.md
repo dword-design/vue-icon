@@ -66,7 +66,7 @@ $ yarn add vue-icon
 
 Add to local components:
 
-```js
+```html
 <script>
 import VueIcon from 'vue-icon'
 
