@@ -99,7 +99,7 @@ Vue.use(VueIcon)
 ## Install via CDN
 
 ```html
-<script src="https://unpkg.com/vue"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 <script src="https://unpkg.com/vue-icon"></script>
 ```
 <!-- /INSTALL -->
