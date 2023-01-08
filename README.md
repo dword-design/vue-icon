@@ -58,17 +58,17 @@
 
 ```bash
 # npm
-$ npm install vue-icon
+$ npm install @dword-design/vue-icon
 
 # Yarn
-$ yarn add vue-icon
+$ yarn add @dword-design/vue-icon
 ```
 
 Add to local components:
 
 ```html
 <script>
-import VueIcon from 'vue-icon'
+import VueIcon from '@dword-design/vue-icon'
 
 export default {
   components: {
@@ -82,7 +82,7 @@ Or register as a global component:
 
 ```js
 import Vue from 'vue'
-import VueIcon from 'vue-icon'
+import VueIcon from '@dword-design/vue-icon'
 
 Vue.component('VueIcon', VueIcon)
 ```
@@ -91,7 +91,7 @@ Or register as a plugin:
 
 ```js
 import Vue from 'vue'
-import VueIcon from 'vue-icon'
+import VueIcon from '@dword-design/vue-icon'
 
 Vue.use(VueIcon)
 ```
@@ -100,7 +100,7 @@ Vue.use(VueIcon)
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
-<script src="https://unpkg.com/vue-icon"></script>
+<script src="https://unpkg.com/@dword-design/vue-icon"></script>
 ```
 <!-- /INSTALL -->
 
