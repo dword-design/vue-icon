@@ -1526,12 +1526,11 @@
     with-local-tmp-dir "^5.0.0"
 
 "@dword-design/tester-plugin-puppeteer@^2.0.0":
-  version "2.1.22"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.22.tgz#4cc6c82ba507075bb05c72e57a4dd20489479b8d"
-  integrity sha512-lPtpglK6BAK2kOHkzdJCx5TNz/E3pcsPl76Z8MXcoKoCOreXQZaQKrikJP9ihNmLfSRyfs7AYHeipG3VtB2M9A==
+  version "2.1.23"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.23.tgz#39b3037ff2e2f856f901db099befa7b65a1a3d59"
+  integrity sha512-N2IIEoBg7nPz675s9ATsmuc4jy/xyLKUHx5vchmG/acQxXy4fqNdx6Q6Re4AjCwM1SU1bjW2Bockp9xpyJHhtw==
   dependencies:
-    is-docker "^2.2.1"
-    puppeteer-to-istanbul "github:dword-design/puppeteer-to-istanbul#fork"
+    is-docker "^3.0.0"
     xvfb "^0.4.0"
 
 "@dword-design/tester@^2.0.0":
@@ -4722,11 +4721,6 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
-
-clone@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
-  integrity sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==
 
 cmd-shim@^6.0.0:
   version "6.0.1"
@@ -8701,10 +8695,10 @@ is-directory@^0.3.1:
   resolved "https://registry.yarnpkg.com/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
   integrity sha512-yVChGzahRFvbkscn2MlwGismPO12i9+znNruC5gVEntG3qu0xQMzsGg/JFbrsqDOHtHFPci+V5aP5T9I+yeKqw==
 
-is-docker@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.1.tgz#33eeabe23cfe86f14bde4408a02c0cfb853acdaa"
-  integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
+is-docker@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-3.0.0.tgz#90093aa3106277d8a77a5910dbae71747e15a200"
+  integrity sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==
 
 is-dotfile@^1.0.0:
   version "1.0.3"
@@ -13408,16 +13402,6 @@ puppeteer-core@19.4.1:
     unbzip2-stream "1.4.3"
     ws "8.11.0"
 
-"puppeteer-to-istanbul@github:dword-design/puppeteer-to-istanbul#fork":
-  version "1.4.0"
-  uid bf9e82538230872bffe68b28c40ec70731afd89a
-  resolved "https://codeload.github.com/dword-design/puppeteer-to-istanbul/tar.gz/bf9e82538230872bffe68b28c40ec70731afd89a"
-  dependencies:
-    clone "^2.1.2"
-    mkdirp "^1.0.4"
-    v8-to-istanbul "^1.2.1"
-    yargs "^15.3.1"
-
 puppeteer@^19.4.1:
   version "19.4.1"
   resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-19.4.1.tgz#cac7d3f0084badebb8ebacbe6f4d7262e7f21818"
@@ -15880,11 +15864,6 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-v8-to-istanbul@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-1.2.1.tgz#8f63a94b7f91243f5dcc6a495540b5653beb1279"
-  integrity sha512-NglPycIwSQeSJj7VJ6L8vTsPKC9MG5Lcx4n3SvYqNHzklbMI4dGcLJnkLPEPJ3uB8UyTdWviMhM0Ptq+xD5UFQ==
-
 v8-to-istanbul@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-9.0.1.tgz#b6f994b0b5d4ef255e17a0d17dc444a9f5132fa4"
@@ -16491,7 +16470,7 @@ yargs@16.2.0, yargs@^16.1.0, yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yargs@^15.0.2, yargs@^15.3.1:
+yargs@^15.0.2:
   version "15.4.1"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz#0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
   integrity sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
