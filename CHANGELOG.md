@@ -1,3 +1,10 @@
+## [2.0.17](https://github.com/dword-design/vue-icon/compare/v2.0.16...v2.0.17) (2023-03-15)
+
+
+### Bug Fixes
+
+* update dependency @fortawesome/fontawesome-free to v6.3.0 ([315899e](https://github.com/dword-design/vue-icon/commit/315899e36a14be5e197a5617da2ca5f4956fdcb4))
+
 ## [2.0.16](https://github.com/dword-design/vue-icon/compare/v2.0.15...v2.0.16) (2023-03-15)
 
 
