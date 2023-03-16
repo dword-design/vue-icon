@@ -1,3 +1,10 @@
+## [2.0.18](https://github.com/dword-design/vue-icon/compare/v2.0.17...v2.0.18) (2023-03-16)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.3 ([81015d4](https://github.com/dword-design/vue-icon/commit/81015d469e527701e342096fb8ae6b63d9d4b545))
+
 ## [2.0.17](https://github.com/dword-design/vue-icon/compare/v2.0.16...v2.0.17) (2023-03-15)
 
 
