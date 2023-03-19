@@ -1,3 +1,10 @@
+## [2.0.23](https://github.com/dword-design/vue-icon/compare/v2.0.22...v2.0.23) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-puppeteer to v2.1.32 ([7b1e2be](https://github.com/dword-design/vue-icon/commit/7b1e2be012f71320a31a4f47fd44fb2baae42b79))
+
 ## [2.0.22](https://github.com/dword-design/vue-icon/compare/v2.0.21...v2.0.22) (2023-03-19)
 
 
