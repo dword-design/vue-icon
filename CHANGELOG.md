@@ -1,3 +1,10 @@
+## [2.0.36](https://github.com/dword-design/vue-icon/compare/v2.0.35...v2.0.36) (2023-04-07)
+
+
+### Bug Fixes
+
+* update dependency sass to v1.61.0 ([8b06945](https://github.com/dword-design/vue-icon/commit/8b06945e5807cea2c6c554492c32cabc08582b2e))
+
 ## [2.0.35](https://github.com/dword-design/vue-icon/compare/v2.0.34...v2.0.35) (2023-04-07)
 
 
