@@ -1,3 +1,10 @@
+## [2.0.38](https://github.com/dword-design/vue-icon/compare/v2.0.37...v2.0.38) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2.0.14 ([ee7cc10](https://github.com/dword-design/vue-icon/commit/ee7cc103058faccffd8a1a1ffdfb921764a7506a))
+
 ## [2.0.37](https://github.com/dword-design/vue-icon/compare/v2.0.36...v2.0.37) (2023-04-07)
 
 
