@@ -1,3 +1,10 @@
+## [2.0.39](https://github.com/dword-design/vue-icon/compare/v2.0.38...v2.0.39) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.4 ([d7c0e10](https://github.com/dword-design/vue-icon/commit/d7c0e1042b0bcf742fc91a9215d1e8a8a9944183))
+
 ## [2.0.38](https://github.com/dword-design/vue-icon/compare/v2.0.37...v2.0.38) (2023-04-09)
 
 
