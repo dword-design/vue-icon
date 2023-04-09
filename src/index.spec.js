@@ -14,21 +14,21 @@ export default tester(
         modules: [packageName`nuxt-svg-loader`],
       },
       page: endent`
-      <template>
-        <self class="foo" :icon="FaCalendar" />
-      </template>
+        <template>
+          <self class="foo" :icon="FaCalendar" />
+        </template>
 
-      <script>
-      import FaCalendar from '${packageName`@fortawesome/fontawesome-free`}/svgs/solid/calendar.svg'
+        <script>
+        import FaCalendar from '${packageName`@fortawesome/fontawesome-free`}/svgs/solid/calendar.svg'
 
-      export default {
-        computed: {
-          FaCalendar: () => FaCalendar,
-        },
-      }
-      </script>
+        export default {
+          computed: {
+            FaCalendar: () => FaCalendar,
+          },
+        }
+        </script>
 
-    `,
+      `,
       async test() {
         await this.page.goto('http://localhost:3000')
         await this.page.setViewport({
@@ -37,7 +37,7 @@ export default tester(
         })
         await this.page.waitForSelector('.foo')
         expect(
-          await this.page.screenshot({ fullPage: true })
+          await this.page.screenshot({ fullPage: true }),
         ).toMatchImageSnapshot(this)
       },
     },
@@ -45,5 +45,5 @@ export default tester(
   [
     testerPluginComponent({ componentPath: _require.resolve('./index.vue') }),
     testerPluginPuppeteer(),
-  ]
+  ],
 )
