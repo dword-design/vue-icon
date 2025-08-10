@@ -1525,13 +1525,10 @@
     vue "^2.6.12"
     with-local-tmp-dir "^5.0.0"
 
-"@dword-design/tester-plugin-puppeteer@^2.0.0":
-  version "2.1.68"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-2.1.68.tgz#8b4a3354512fbf807e6a9dff7139789b2658f4b6"
-  integrity sha512-15OyXl6wPBhnIww25tbQV4Sq0aAzkK7nx6IuIHgPXv48Yg5m3QfxTKb0dRdyEJDVd3Uu20Q2jCjPzNSGdKyMgw==
-  dependencies:
-    is-docker "^3.0.0"
-    xvfb "^0.4.0"
+"@dword-design/tester-plugin-puppeteer@^3.0.0":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-puppeteer/-/tester-plugin-puppeteer-3.0.3.tgz#9dca1df18bd555b377d284245a7ce33a316be27d"
+  integrity sha512-arEx9HmKNv8hRlAv5nb9aD8SZgtNZ3bOs9cWY1JBwplwPe49umX5HTo7pbdH0ZJ6ed/9yDqreYIrmBRVj+SDvw==
 
 "@dword-design/tester@^2.0.0":
   version "2.0.18"
@@ -8797,11 +8794,6 @@ is-directory@^0.3.1:
   resolved "https://registry.yarnpkg.com/is-directory/-/is-directory-0.3.1.tgz#61339b6f2475fc772fd9c9d83f5c8575dc154ae1"
   integrity sha512-yVChGzahRFvbkscn2MlwGismPO12i9+znNruC5gVEntG3qu0xQMzsGg/JFbrsqDOHtHFPci+V5aP5T9I+yeKqw==
 
-is-docker@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-3.0.0.tgz#90093aa3106277d8a77a5910dbae71747e15a200"
-  integrity sha512-eljcgEDlEns/7AXFosB5K/2nCM4P7FQPkGc/DWLy5rmFEWvZayGrik1d9/QIY5nJ4f9YsVvBkA6kJpHn9rISdQ==
-
 is-dotfile@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/is-dotfile/-/is-dotfile-1.0.3.tgz#a6a2f32ffd2dfb04f5ca25ecd0f6b83cf798a1e1"
@@ -11129,7 +11121,7 @@ mute-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-1.0.0.tgz#e31bd9fe62f0aed23520aa4324ea6671531e013e"
   integrity sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA==
 
-nan@^2.12.1, nan@^2.13.2, nan@^2.17.0:
+nan@^2.12.1, nan@^2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
   integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
@@ -14667,13 +14659,6 @@ slash@^4.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
-sleep@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/sleep/-/sleep-6.1.0.tgz#5507b520556a82ffb983d39123c5459470fa2a9e"
-  integrity sha512-Z1x4JjJxsru75Tqn8F4tnOFeEu3HjtITTsumYUiuz54sGKdISgLCek9AUlXlVVrkhltRFhNUsJDJE76SFHTDIQ==
-  dependencies:
-    nan "^2.13.2"
-
 smart-buffer@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
@@ -16609,13 +16594,6 @@ xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
-
-xvfb@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/xvfb/-/xvfb-0.4.0.tgz#52c4ddb991b7c5ae9d175d35452718b734781e85"
-  integrity sha512-g55AbjcBL4Bztfn7kiUrR0ne8mMUsFODDJ+HFGf5OuHJqKKccpExX2Qgn7VF2eImw1eoh6+riXHser1J4agrFA==
-  optionalDependencies:
-    sleep "6.1.0"
 
 xxhashjs@^0.2.1:
   version "0.2.2"
