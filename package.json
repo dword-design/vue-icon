@@ -36,7 +36,7 @@
     "depcheck-package-name": "^2.0.0",
     "nuxt-svg-loader": "^1.2.0",
     "sass": "^1.32.8",
-    "sass-loader": "^10.0.0"
+    "sass-loader": "^16.0.0"
   },
   "engines": {
     "node": ">=14"
