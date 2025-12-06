@@ -1,0 +1,5 @@
+packages:
+  - '.'
+
+overrides:
+  '@playwright/experimental-ct-core>vite': ^7.2.6 # TODO: Get rid of this when @playwright/experimental-ct-core uses vite@^7
