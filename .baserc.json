@@ -2,6 +2,7 @@
   "allowedMatches": ["playwright"],
   "depcheckConfig": {
     "ignoreMatches": [
+      "@playwright/browser-chromium",
       "sass",
       "sass-loader"
     ]
