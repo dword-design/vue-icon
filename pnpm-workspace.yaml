@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - esbuild
+
+onlyBuiltDependencies:
+  - '@playwright/browser-chromium'
+
+overrides:
+  '@playwright/experimental-ct-core>vite': ^7.2.6

@@ -1,10 +1,13 @@
 {
-  "name": "@dword-design/component",
-  "testInContainer": true,
+  "allowedMatches": ["playwright"],
   "depcheckConfig": {
     "ignoreMatches": [
+      "@playwright/browser-chromium",
       "sass",
       "sass-loader"
     ]
-  }
+  },
+  "gitignore": ["/playwright/.cache"],
+  "name": "@dword-design/component",
+  "testInContainer": true
 }
