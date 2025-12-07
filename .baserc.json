@@ -1,10 +1,12 @@
 {
+  "allowedMatches": ["playwright"],
   "depcheckConfig": {
     "ignoreMatches": [
       "sass",
       "sass-loader"
     ]
   },
+  "gitignore": ["/playwright/.cache"],
   "name": "@dword-design/component",
   "testInContainer": true
 }
