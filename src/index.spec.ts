@@ -1,4 +1,4 @@
-import FaCalendar from '@fortawesome/fontawesome-free/svgs/solid/calendar.svg?component';
+import FaCalendar from '@fortawesome/fontawesome-free/svgs/solid/calendar.svg';
 import { expect, test } from '@playwright/experimental-ct-vue';
 
 import Self from './index.vue';
